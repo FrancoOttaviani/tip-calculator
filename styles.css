@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(186, 14%, 43%);
+    font-family: monospace;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    width: 570px;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.derecha{
+    width: 50%;
+    background-color: hsl(183, 100%, 15%);
+    margin: 20px 20px 20px 5px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.izquierda{
+    width: 50%;
+    margin: 20px;
+}
+
+.buton{
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    width: 30%;
+    height: 30px;
+    margin: 0px 0px 5px 2px;
+    padding: 0px;
+    transition: 200ms;
+    font-family: inherit;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.buton:hover{
+    background-color: hsl(185, 41%, 84%);
+    color:hsl(183, 100%, 15%);
+}
+
+.buton:active{
+    background-color: hsl(172, 67%, 45%)    ;
+}
+
+.butonActive{
+    background-color: hsl(172, 67%, 45%);
+    border-style: none;
+    width: 30%;
+    height: 30px;
+    margin: 0px 0px 5px 2px;
+    padding: 0px;
+    transition: 200ms;
+    font-family: inherit;
+    border-radius: 5px;
+    color: white;
+}
+
+.buton:focus{
+    background-color: hsl(172, 67%, 45%);
+   
+}
+
+
+.custom{
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    width: 30%;
+    height: 30px;
+    margin: 0px 0px 5px 2px;
+    padding: 0px;
+    text-align: center;
+    font-family: inherit;
+    border-radius: 5px;
+    color: white;
+}
+
+.bill{
+    background-color: hsl(185, 41%, 84%);
+    border-style: none;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    border-radius: 8px;
+
+}
+
+.numberOfPeople{
+    background-color: hsl(185, 41%, 84%);
+    border-style: none;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    border-radius: 8px;
+}
+
+h4{
+    margin: 20px 0px 10px 0px;
+}
+
+.derecha h4{
+    color: hsl(0, 0%, 100%);
+}
+
+.derecha span{
+    color: hsl(172, 67%, 45%);
+}
+
+h6{
+    margin: -5px 0px 0px 0px;
+}
+
+.btn-reset{
+    
+    background-color: hsl(172, 67%, 45%);
+    border-style: none;
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    font-family: inherit;
+    border-radius: 5px;
+    color: hsl(183, 100%, 15%);
+    transition: 200ms;
+
+}
+
+.btn-reset:hover{
+    background-color: hsl(185, 41%, 84%);
+    color:hsl(183, 100%, 15%);
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 35%;
+    align-items: center;
+}
+
+.div-tip{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    margin: 0px 0px 0px 20px
+}
+
+.div-total{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 30%;
+    margin: 0px 0px 0px 20px
+}
+
+
+input.tipAmount{
+    width: 5rem;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    margin: 10px;
+}
+
+
+input.total{
+    width: 5rem;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px;
+}
+
+.tipAmount{
+    margin: 20px 10px 10px 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.total{
+    margin: 20px 10px 10px 84px;
+    font-size: 25px;
+    font-weight: bold;
+}
